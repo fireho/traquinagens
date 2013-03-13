@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sudo gem install tmuxinator
+cp fire.yml ~/.tmuxinator/ 
+cp .tmux.conf ~/
+
+echo "Traquinagem Ok"
+
